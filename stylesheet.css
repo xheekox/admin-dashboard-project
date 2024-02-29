@@ -23,6 +23,57 @@
 
 .nav {
     grid-area: 2 / 1 / 4 / 2;
+    color:white;
+    font-family:verdana;
+    font-size:34px;
+    font-weight:bolder;
+
+    padding-left:46px;
+    display:grid;
+    grid-template-columns: 70px 1fr;
+    gap:30px;
+    align-items:center;
+    padding-top:70px;
+    padding-bottom:50px;
+}
+
+.nav > img {
+    justify-self:center;
+}
+
+.navrow {
+    color:white;
+    font-size:30px;
+}
+
+.home-icon {
+    height:43px;
+    weight:48px;
+}
+
+.profile-icon {
+    height:36px;
+    width:48px;
+}
+
+.msg-icon {
+    height:40px;
+    weight:40px;
+}
+
+.hist-icon {
+    height:40px;
+    weight:40px;
+}
+
+.tasks-icon {
+    height:44px;
+    width:43px;
+}
+
+.community-icon {
+    height:48px;
+    width:48px;
 }
 
 .settings {
