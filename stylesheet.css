@@ -187,6 +187,65 @@
 
 .announcements {
     grid-area: 3 / 3 / 5 / 4;
+
+    display:flex;
+    flex-direction:column;
+    padding-left:34px;
+    padding-bottom:15px;
+
+}
+
+.announcements > p {
+    font-size:26px;
+    font-weight:bold;
+    font-family: verdana;
+    letter-spacing:-1px;
+    padding-top:33px;
+    padding-bottom:33px;
+    flex-direction:column;
+}
+
+.announce-container {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    border-radius:20px;
+    overflow:hidden;
+    margin-right:66px;
+    background:#fff;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:40px;
+    box-shadow:10px 10px 15px 0px #ccd1d9;
+}
+
+.announce-container > div {
+    background:white;
+    padding-top:30px;
+    padding-bottom:40px;
+    padding-left:12px;
+    padding-right:12px;
+    flex:1;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.announce-container > div:not(:first-child) {
+    border-top:2px solid #d7d7d7;
+}
+
+.announce-title {
+    font-size:22px;
+    font-weight:bold;
+    font-family:verdana;
+}
+
+.announce-content {
+    color:#636363;
+    font-family:verdana;
+    font-size:18px;
 }
 
 .trending {
