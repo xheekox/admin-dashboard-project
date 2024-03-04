@@ -250,7 +250,62 @@
 
 .trending {
     grid-area: 5 / 3 / 6 / 4;
+
+    display:flex;
+    flex-direction:column;
+    padding-left:34px;
+    padding-top:42px;
+    padding-bottom:110px;         
 }
+
+.trending-title {
+    font-size:26px;
+    font-family:verdana;
+    font-weight:bold;
+    padding-top:33px;
+    padding-bottom:33px;
+}
+
+.trending-row {
+    display:flex;
+    flex:1;
+    align-content:center;
+    gap:36px;
+}
+
+.trending-container {
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    margin-right:66px;
+    border-radius:20px;
+    overflow:hidden;
+    flex:1;
+    box-shadow:10px 10px 15px 0px #ccd1d9;
+    padding-left:45px;
+    padding-top:42px;
+    padding-bottom:58px;
+    gap:50px;
+}
+
+.trending-tied-container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:10px;
+}
+
+.acc-username {
+    font-family:Verdana;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.acc-description {
+    color:#636363;
+    font-size:19;
+}
+
 
 
 
